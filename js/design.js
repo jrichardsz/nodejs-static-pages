@@ -15,8 +15,20 @@ $(document).ready(function(){
         }
         else
         {
-            $('nav').animate({'height':'0px'},750);
+            /* Use call back function and resize function to resize navigation
+             to fix the bug when switching between screen size
+             */
+            $('nav').animate({'height':'0px'},750, function(){
+                /* Shortcut of jQuery */
+                $(this).removeAttr('style');
+            });
         }
+    });
 
+    $(window).resize(function(){
+        if( $(this).width() > 625 )
+        {
+            $('nav').removeAttr('style');
+        }
     });
 });

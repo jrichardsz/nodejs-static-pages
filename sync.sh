@@ -1,3 +1,3 @@
 git add -A
-git commit -m mobile_menu_animated
+git commit -m done
 git push

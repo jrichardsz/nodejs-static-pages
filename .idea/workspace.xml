@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b8935b75-b83c-40fa-a4ad-2117431bb784" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/design.js" afterPath="$PROJECT_DIR$/js/design.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sync.sh" afterPath="$PROJECT_DIR$/sync.sh" />
     </list>
     <ignored path="responsive_web1.1.iws" />
@@ -37,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/sync.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.032258064">
-              <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -439,12 +438,12 @@
       <workItem from="1453794497582" duration="430000" />
       <workItem from="1453795258042" duration="2959000" />
       <workItem from="1453833112548" duration="1729000" />
-      <workItem from="1453834912666" duration="1138000" />
+      <workItem from="1453834912666" duration="2251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18074000" />
+    <option name="totallyTimeSpent" value="19187000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -649,15 +648,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/design.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46153846">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.93846154">
+          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
           <folding>
-            <marker date="1453835928000" expanded="false" signature="-1:-1" placeholder="/** Created by codename on 2016-01-26. ...*/" />
-            <marker date="1453835928000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1453835928000" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1453835928000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1453835928000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1453835928000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1453836810000" expanded="true" signature="-1:-1" placeholder="/** Created by codename on 2016-01-26. ...*/" />
+            <marker date="1453836810000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1453836810000" expanded="true" signature="-1:-1" placeholder="/*...*/" />
+            <marker date="1453836810000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1453836810000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1453836810000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1453836810000" expanded="true" signature="-1:-1" placeholder="/*...*/" />
+            <marker date="1453836810000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1453836810000" expanded="true" signature="-1:-1" placeholder="/*...*/" />
+            <marker date="1453836810000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1453836810000" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -665,7 +669,7 @@
     <entry file="file://$PROJECT_DIR$/sync.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.032258064">
-          <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
           <folding />
         </state>
       </provider>
