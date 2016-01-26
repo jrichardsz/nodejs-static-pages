@@ -9,7 +9,7 @@ body { font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight:300; c
 {
     max-width: 1200px;
     margin: 0 auto; /* top-bottom left-right(set to auto is to center the content)*/
-    position: relative; /* within the page, all relate to this*/
+    position: relative; /* within the page, all relate to this */
 }
 
 /* Text */
@@ -196,6 +196,7 @@ section.atmosphere article
 }
 
 /* how-to */
+
 section.how-to
 {
     background-color: #eee9d9;
@@ -211,12 +212,14 @@ section.how-to aside .content
 {
     padding: 30px 30px 20px 0;
 }
+
 section.how-to aside .content img
 {
     display: block;
     margin-bottom: 15px;
     width: 70%;
 }
+
 section.how-to aside .content h4
 {
     margin-bottom: 0;
@@ -280,7 +283,10 @@ section.how-to blockquote p.credit::before
     top: -1px;
     left: 0;
 }
+
+
 /* Navigation */
+
 
 nav
 {
@@ -312,7 +318,8 @@ nav ul li a
     width: 125px;
     position: relative;
 }
-        /* visited color */
+
+/* visited color */
 nav ul li a:visited
 {
     color: #fff;
@@ -343,7 +350,7 @@ nav ul ul ul
 
 
 
-        /* target only the top elements */
+/* target only the top elements */
 /* top-level */
 nav > ul
 {
@@ -353,7 +360,7 @@ nav > ul > li
 {
     float: left;
 }
-        /* make nav horizontal */
+/* make nav horizontal */
 nav::after { content:''; display: block; clear: both; }
 
 nav > ul > li > a
@@ -361,7 +368,7 @@ nav > ul > li > a
     width: auto;
     padding: 10px 20px 15px 20px;
 }
-    /* target parents */
+/* target parents */
 nav a[aria-haspopup="true"]::after
 {
     content:'';
@@ -374,7 +381,7 @@ nav a[aria-haspopup="true"]::after
     border-bottom: 4px solid transparent;
     border-left: 4px solid #fff;
 }
-    /* down pointing arrow */
+/* down pointing arrow */
 nav > ul > li > a[aria-haspopup="true"]::after
 {
     border-left: 4px solid transparent;
@@ -408,6 +415,9 @@ footer a:hover
 {
     color: #000;
 }
+
+
+
 
 /* Media Queries */
 /* for larger screen */
@@ -464,6 +474,8 @@ footer a:hover
     nav > ul { padding-left: 10px; }
 }
 
+
+
 /* for smaller screen */
 @media screen and (max-width: 625px)
 {
@@ -486,6 +498,7 @@ footer a:hover
     header div.hero h1 { margin-bottom: 10px; } /* fix get advice box */
     /* Section - Main */
     section.main aside {  width: 100%; float: none; text-align: left; }
+
     section.main aside div.content
     {
         margin: 8px 20px 8px 0;
@@ -493,6 +506,7 @@ footer a:hover
         background-size: 50px 50px;
         background-position: 20px 5px;
     }
+
 
     /* Section - Atmosphere */
     section.atmosphere article
@@ -506,6 +520,7 @@ footer a:hover
     section.how-to aside  { width: 100%; float: none; margin: 0; position: relative; }
     section.how-to aside div.content { padding: 20px 20px 20px 150px; }
     section.how-to aside div.content p { font-size: .9em; }
+
     section.how-to aside div.content img
     {
         display: inline-block;
@@ -513,6 +528,7 @@ footer a:hover
         position: absolute;
         top: 30px; left: 0px;
     }
+
     section.how-to blockquote
     {
         margin: 0 20px 0 40px;
@@ -522,10 +538,10 @@ footer a:hover
     }
     section.how-to blockquote p.credit { margin-bottom: 0; }
 
-        /* Nav */
+    /* Nav */
     nav { position: static; width: auto; padding: 20px 15px; background-color: #4b0a0c; }
 
-        /* Nav - for 625px */
+    /* Nav - for 625px */
     nav ul,
     nav ul ul,
     nav ul ul ul { display: block; position: static; }
@@ -545,7 +561,7 @@ footer a:hover
     }
 
     nav ul li a:hover { background-color: rgba(255,255,255,.2);}
-        /* remove triangle this time */
+    /* remove triangle this time */
     nav ul ul { background: none; }
 
     nav ul ul li a { margin-left: 30px; }
@@ -556,7 +572,19 @@ footer a:hover
     /* Footer */
     footer div.content { display: block; margin-top: 15px; }
     footer div.content a { margin: 0 20px 0 0; }
+
+    /* footer */
+    footer::after { content:''; display: block; clear: both; }
+    footer div.content a
+    {
+        display:inline-block; margin: 0 0 10px 0;
+        float: left;
+        clear: both;
+    }
+
 }
+
+
 
 /* Smallest screen-size - for 425px */
 @media screen and (max-width: 425px)
@@ -575,19 +603,13 @@ footer a:hover
     header div.hero h1 { font-size: 1em; margin-bottom: 10px; }
     header div.hero a.btn { padding: 2px 30px; font-size: .8em; }
     header div.hero a.btn span { display: none; }
-}
 
-/* how-to section */
-section.how-to aside div.content { padding: 140px 20px 20px 0px; }
-section.how-to aside div.content img { width: auto; height: 100px; top: 30px; }
-section.how-to blockquote { margin: 10px 40px 0 20px; }
-
-/* footer */
-footer::after { content:''; display: block; clear: both; }
-footer div.content a
-{
-    display:inline-block; margin: 0 0 10px 0;
-    float: left;
-    clear: both;
+    /* how-to section */
+    section.how-to aside div.content { padding: 140px 20px 20px 0px; }
+    section.how-to aside div.content img { width: auto; height: 100px; top: 30px; }
+    section.how-to blockquote { margin: 10px 40px 0 20px; }
 
 }
+
+
+/* upper is fine */
