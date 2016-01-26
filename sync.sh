@@ -1,3 +1,3 @@
 git add -A
-git commit -m import
+git commit -m some_change
 git push

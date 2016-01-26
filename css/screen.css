@@ -97,7 +97,7 @@ header a.logo
     width: 160px;
     height: 66px;
 
-    background: url(../images/logo.svg) no-repeat 0 0; background-size:contain;
+  /*  background: url(../images/logo.svg) no-repeat 0 0; background-size:contain; */
     top: 15px; left: 20px;
 }
 header a.logo span
