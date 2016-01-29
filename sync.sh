@@ -1,3 +1,3 @@
 git add -A
-git commit -m done
+git commit -m sync
 git push
