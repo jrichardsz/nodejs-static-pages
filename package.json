@@ -4,10 +4,10 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "build":"echo \"build\""
+    "build": "echo \"build\""
   },
   "dependencies": {
-    "ejs": "~1.0.0",
-    "express": "~4.9.8"
+    "ejs": "3.0.2",
+    "express": "4.17.1"
   }
 }
